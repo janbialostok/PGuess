@@ -1,0 +1,102 @@
+@charset "UTF-8";
+body {background-color:#0D97A8;opacity:0.9;}
+main {-webkit-border-radius:25px;
+		-moz-border-radius:25px;
+		background-color:#65656C;
+		border:5px solid black;
+		margin:7.5% auto;
+		width:50%;
+		text-align:center;
+		}
+main h2 {color:white;font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;}
+#gameForm {-webkit-border-radius:25px;
+			-moz-border-radius:25px;
+			border:2px solid #65656c;
+			background-color:black;
+			color:white;
+			padding-top:10%;
+			padding-bottom:10%;
+			margin-left:5%;
+			margin-right:5%;
+			}
+#hintForm {-webkit-border-radius:25px;
+			-moz-border-radius:25px;
+			padding-top:5%;
+			padding-bottom:5%;
+			margin:2.5% 20% 5% 20%;
+			}
+#heat {-webkit-border-radius:25px;
+		-moz-border-radius:25px;
+		background-color:white;
+		padding-top:2.5%;
+		padding-bottom:2.5%;
+		margin:2.5% 33% 5% 33%;
+		font-size:large;
+		font-weight:bolder;
+		text-align:center;	
+		}
+[type='button']{color:rgba(245, 243, 240, 1);
+					text-shadow:rgba(0, 0, 0, 0.496094) 0px 2px 0px;
+					line-height:1.5em;
+					width:auto;
+					font-size:medium;
+					box-shadow:rgba(0, 0, 0, 0.3) 0px -3px 0px 0px inset;
+					border:6px rgba(143, 133, 143, 1) outset;
+					border-radius:10px;
+					background:#20D1E7;
+				}
+				
+[type='submit']{font-size:medium;
+					color:rgba(245, 243, 240, 1);
+					text-shadow:rgba(0, 0, 0, 0.496094) 0px 2px 0px;
+					line-height:1.5em;
+					width:auto;
+					box-shadow:rgba(0, 0, 0, 0.3) 0px -3px 0px 0px inset;
+					border:6px rgba(143, 133, 143, 1) outset;
+					border-radius:10px;
+					background:#20D1E7;
+					margin-top:2.5%;
+				}
+[type='button']:hover{border:6px rgba(143, 133, 143, 1) inset;
+						opacity:0.5;
+						cursor:pointer;
+				}
+				
+[type='submit']:hover{border:6px rgba(143, 133, 143, 1) inset;
+						opacity:0.5;
+						cursor:pointer;
+				}
+.yourGuesses{
+	-webkit-border-radius:25px;
+	-moz-border-radius:25px;
+	border:1px solid black;
+	width: 20%;
+	float: right;
+	margin: -50% 1% auto auto;
+	text-align:center;
+	color:white;
+}
+#hintDiv{
+	position:absolute;
+	top:0%;
+	left:0%;
+	width:100%;
+	height:100%;
+	background-color:black;
+	opacity:0.8;
+	text-align:center;
+	padding-top:2.5%;
+}
+#hintDiv button{
+	margin-top:10%;
+	-webkit-border-radius:25px;
+	-moz-border-radius:25px;
+	width:15%;
+	height:10%;
+	font-size:larger;
+}
+#hintDiv button:hover{
+	background-color:#0D97A8;
+	color:white;
+	cursor:pointer;
+}
